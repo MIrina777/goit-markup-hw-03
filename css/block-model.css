@@ -26,7 +26,7 @@ img {
   padding: 0 15px;
 }
 .page-header {
-  border-bottom: 1px solid, #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-container {
   display: flex;
@@ -50,7 +50,6 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  margin-left: 332px;
 }
 .first-section {
   padding: 188px 0;
@@ -68,4 +67,86 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
+}
+.second-section {
+  padding: 120px 0;
+}
+.second-list {
+  display: flex;
+  gap: 24px;
+}
+.second-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.second-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.second-section-title {
+  margin-bottom: 8;
+}
+.third-section {
+  padding: 120px 0;
+}
+.third-title {
+  padding: 72px 0;
+}
+.third-list {
+  display: flex;
+  gap: 24px;
+}
+.third-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.third-container-second {
+  padding: 32px 0;
+}
+.team-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-text {
+  text-align: center;
+}
+.four-section {
+  padding: 120px 0;
+}
+.four-title {
+  margin-bottom: 72px;
+}
+.four-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.four-item {
+  width: calc((100% - 48px) / 3);
+}
+.four-container-second {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portf-title {
+  margin-bottom: 8px;
+}
+.foot {
+  padding: 100px 0;
+}
+.web {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.foot-text {
+  max-width: 264px;
 }
