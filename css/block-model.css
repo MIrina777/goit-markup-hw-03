@@ -20,26 +20,52 @@ img {
 * {
   outline: 1px solid tomato;
 }
-.container { 
-max-width: 1158px; 
-padding-left:  
-padding-right:  
-margin-left: auto; 
-margin-right: auto;  
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
-.page-nav{
+.page-header {
+  border-bottom: 1px solid, #e7e9fc;
+}
+.page-container {
   display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.nav-list{
-   display: flex;
-}
-.main-list{
+.page-nav {
   display: flex;
+  align-items: center;
 }
-.second-list{
-  display: flex;
+.logo {
+  margin-right: 76px;
+  padding: 25.5px 0;
 }
-.third-list{
+.nav-list {
   display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.main-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin-left: 332px;
+}
+.first-section {
+  padding: 188px 0;
+}
+.first-title {
+  max-width: 496px;
+  margin: auto;
+}
+.first-section-button {
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
