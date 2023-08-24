@@ -22,7 +22,8 @@ img {
 }
 .container {
   max-width: 1158px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
 }
 .page-header {
@@ -46,6 +47,13 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
+.page-item {
+  padding: 24px 0;
+}
+.main-item {
+  padding: 24px 0;
+}
+
 .main-list {
   display: flex;
   gap: 40px;
@@ -75,7 +83,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.second-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -91,13 +99,13 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .second-section-title {
-  margin-bottom: 8;
+  margin-bottom: 8px;
 }
 .third-section {
   padding: 120px 0;
 }
 .third-title {
-  padding: 72px 0;
+  margin-bottom: 72px;
 }
 .third-list {
   display: flex;
