@@ -45,12 +45,11 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+.webstudio {
   padding: 24px 0;
 }
-.page-item {
-  padding: 24px 0;
-}
-.main-item {
+.address {
   padding: 24px 0;
 }
 
@@ -59,6 +58,7 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
+
 .first-section {
   padding: 188px 0;
 }
